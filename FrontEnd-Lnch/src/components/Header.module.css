@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ecccd3;
+  padding: 10px 20px;
+}
+
+img {
+  height: 76px;
+  width: 77px;
+}
+
+.text {
+  font-style: italic;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  flex-grow: 1;
+}
+
+svg {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
